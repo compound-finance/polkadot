@@ -5,31 +5,31 @@ authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2018"
 
 [dependencies]
-system = { package = "frame-system", git = "https://github.com/paritytech/substrate", branch = "master" }
-support = { package = "frame-support", git = "https://github.com/paritytech/substrate", branch = "master" }
-benchmarking = { package = "frame-benchmarking", git = "https://github.com/paritytech/substrate", branch = "master" }
-transaction-payment = { package = "pallet-transaction-payment", git = "https://github.com/paritytech/substrate", branch = "master" }
-collective = { package = "pallet-collective", git = "https://github.com/paritytech/substrate", branch = "master" }
-democracy = { package = "pallet-democracy", git = "https://github.com/paritytech/substrate", branch = "master" }
+system = { package = "frame-system", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+support = { package = "frame-support", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+benchmarking = { package = "frame-benchmarking", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+transaction-payment = { package = "pallet-transaction-payment", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+collective = { package = "pallet-collective", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+democracy = { package = "pallet-democracy", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
-test-runner = { git = "https://github.com/paritytech/substrate", branch = "master" }
-grandpa = { package = "sc-finality-grandpa", git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-consensus-manual-seal = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-service = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-executor = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-transaction-pool = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-tracing = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-cli = { git = "https://github.com/paritytech/substrate", branch = "master"  }
+test-runner = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+grandpa = { package = "sc-finality-grandpa", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-consensus-babe = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-consensus-manual-seal = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-service = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-executor = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-transaction-pool = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-consensus = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-tracing = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-cli = { git = "https://github.com/compound-finance/substrate", branch = "gateway"  }
 
-sp-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-keystore = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-consensus-babe = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-runtime = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-keyring = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-inherents = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-keystore = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-consensus = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 polkadot-primitives = { path = "../../../../primitives" }
 polkadot-cli = { path = "../../../../cli", features = ["cli"] }
