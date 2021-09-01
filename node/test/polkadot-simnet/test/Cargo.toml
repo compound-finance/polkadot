@@ -6,16 +6,16 @@ edition = "2018"
 
 [dependencies]
 # substrate primitives
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-core = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-blockchain = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-runtime = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 # frame pallets
-system = { package = "frame-system", git = "https://github.com/paritytech/substrate", branch = "master" }
-balances = { package = "pallet-balances", git = "https://github.com/paritytech/substrate", branch = "master" }
+system = { package = "frame-system", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+balances = { package = "pallet-balances", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 # substrate client libs
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sc-client-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 # polkadot deps
 polkadot-simnet = { path = "../common" }

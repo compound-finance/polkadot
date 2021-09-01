@@ -6,58 +6,58 @@ edition = "2018"
 
 [dependencies]
 # Substrate Client
-sc-authority-discovery = { git = "https://github.com/paritytech/substrate", branch = "master" }
-babe = { package = "sc-consensus-babe", git = "https://github.com/paritytech/substrate", branch = "master" }
-beefy-primitives = { git = "https://github.com/paritytech/grandpa-bridge-gadget", branch = "master" }
-beefy-gadget = { git = "https://github.com/paritytech/grandpa-bridge-gadget", branch = "master" }
-grandpa = { package = "sc-finality-grandpa", git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-block-builder = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-chain-spec = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-client-db = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-consensus-uncles = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-consensus-slots = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-executor = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-network = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-transaction-pool = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-sync-state-rpc = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-keystore = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sc-basic-authorship = { git = "https://github.com/paritytech/substrate", branch = "master" }
-service = { package = "sc-service", git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-telemetry = { package = "sc-telemetry", git = "https://github.com/paritytech/substrate", branch = "master" }
+sc-authority-discovery = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+babe = { package = "sc-consensus-babe", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+beefy-primitives = { git = "https://github.com/compound-finance/grandpa-bridge-gadget", branch = "gateway" }
+beefy-gadget = { git = "https://github.com/compound-finance/grandpa-bridge-gadget", branch = "gateway" }
+grandpa = { package = "sc-finality-grandpa", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-block-builder = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-chain-spec = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-client-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-client-db = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-consensus-uncles = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-consensus = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-consensus-slots = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-executor = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-network = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-transaction-pool = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-sync-state-rpc = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-keystore = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sc-basic-authorship = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+service = { package = "sc-service", git = "https://github.com/compound-finance/substrate", branch = "gateway", default-features = false }
+telemetry = { package = "sc-telemetry", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 # Substrate Primitives
-sp-authority-discovery = { git = "https://github.com/paritytech/substrate", branch = "master" }
-consensus_common = { package = "sp-consensus", git = "https://github.com/paritytech/substrate", branch = "master" }
-grandpa_primitives = { package = "sp-finality-grandpa", git = "https://github.com/paritytech/substrate", branch = "master" }
-inherents = { package = "sp-inherents", git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-block-builder = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-io = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-keystore = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-offchain = { package = "sp-offchain", git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-session = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-storage = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-transaction-pool = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-trie = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-consensus-babe = { git = "https://github.com/paritytech/substrate", branch = "master" }
-sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "master" }
+sp-authority-discovery = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+consensus_common = { package = "sp-consensus", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+grandpa_primitives = { package = "sp-finality-grandpa", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+inherents = { package = "sp-inherents", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-block-builder = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-blockchain = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-core = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-io = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-keystore = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-offchain = { package = "sp-offchain", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-runtime = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-session = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-storage = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-transaction-pool = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-trie = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-timestamp = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-consensus-babe = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+sp-state-machine = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 # Substrate Pallets
-pallet-babe = { git = "https://github.com/paritytech/substrate", branch = "master" }
-pallet-im-online = { git = "https://github.com/paritytech/substrate", branch = "master" }
-pallet-staking = { git = "https://github.com/paritytech/substrate", branch = "master" }
-pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-pallet-mmr-primitives = { git = "https://github.com/paritytech/substrate", branch = "master" }
+pallet-babe = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+pallet-im-online = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+pallet-staking = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+pallet-transaction-payment-rpc-runtime-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+pallet-mmr-primitives = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 # Substrate Other
-frame-system-rpc-runtime-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
-prometheus-endpoint = { package = "substrate-prometheus-endpoint", git = "https://github.com/paritytech/substrate", branch = "master" }
+frame-system-rpc-runtime-api = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
+prometheus-endpoint = { package = "substrate-prometheus-endpoint", git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 
 # External Crates
 futures = "0.3.15"
