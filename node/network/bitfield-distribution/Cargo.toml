@@ -14,7 +14,7 @@ polkadot-node-network-protocol = { path = "../../network/protocol" }
 
 [dev-dependencies]
 polkadot-node-subsystem-test-helpers = { path = "../../subsystem-test-helpers" }
-bitvec = { version = "0.20.1", default-features = false, features = ["alloc"] }
+bitvec = { version = "0.22.3", default-features = false, features = ["alloc"] }
 sp-core = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 sp-application-crypto = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
 sp-keystore = { git = "https://github.com/compound-finance/substrate", branch = "gateway" }
